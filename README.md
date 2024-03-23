@@ -3,4 +3,4 @@ This script helps one to train and tune hyperparameters of RL agents from termin
 DEPENDENCIES:
 argparse
 gymnasium
-https://optuna.org/
+<a>https://optuna.org/</a>
