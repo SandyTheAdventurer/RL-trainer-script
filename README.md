@@ -74,32 +74,18 @@ options:
   
   -o, --optimize        Optimize using Optuna mode
   
-  -op OPTIMIZATION_PARAMETERS, --optimization_parameters OPTIMIZATION_PARAMETERS
+  -op OPTIMIZATION_PARAMETERS, --optimization_parameters OPTIMIZATION_PARAMETERS      Parameters to study using Optuna to be entered within quotes separated by space
   
-                        Parameters to study using Optuna to be entered within quotes separated by space
+  -nt N_TRIALS, --n_trials N_TRIALS      Number of trials for Optuna
   
-  -nt N_TRIALS, --n_trials N_TRIALS
+  -ne N_EVALS, --n_evals N_EVALS      Evaluattion frequency for Optuna
   
-                        Number of trials for Optuna
+  -tme TIMESTEPS, --timesteps TIMESTEPS      Number of Timesteps
   
-  -ne N_EVALS, --n_evals N_EVALS
-  
-                        Evaluattion frequency for Optuna
-  
-  -tme TIMESTEPS, --timesteps TIMESTEPS
-                        
-                        Number of Timesteps
-  
-  -l LEARNING_RATE, --learning_rate LEARNING_RATE
-                        
-                        Custom learning rate if needed
+  -l LEARNING_RATE, --learning_rate LEARNING_RATE      Custom learning rate if needed
   
   -g, --gpu             Enable usage of gpu[0]
 
-  -sde, --state_dependent_exploration
-                        
-                        Enable usage of state dependant exploration
+  -sde, --state_dependent_exploration      Enable usage of state dependant exploration
   
-  -e ENTROPY_COEFFICIENT, --entropy_coefficient ENTROPY_COEFFICIENT
-                        
-                        Specify the entropy that is the degree the exploration
+  -e ENTROPY_COEFFICIENT, --entropy_coefficient ENTROPY_COEFFICIENT      Specify the entropy that is the degree the exploration
